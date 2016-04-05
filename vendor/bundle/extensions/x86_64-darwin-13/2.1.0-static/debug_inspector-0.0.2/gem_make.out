@@ -1,0 +1,12 @@
+/Users/ooshiroyoshiaki/.rbenv/versions/2.1.2/bin/ruby -r ./siteconf20160402-55941-1oykfj5.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.bundle
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.bundle ./.gem.20160402-55941-qvv8ib
+installing default debug_inspector libraries
